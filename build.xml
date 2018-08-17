@@ -4,7 +4,7 @@
 		<target name="main">
 			<antcall target="compile"/>
 			<antcall target="package"/>
-			<ant antfile="E:\ant-learning/build1.xml"/>
+			<ant antfile="build1.xml"/>
 		</target>
 		
 		<target name="compile">
