@@ -1,0 +1,25 @@
+	<project name="sagar-java-project" default="main">
+		
+		
+		<target name="main">
+			<antcall target="compile"/>
+			<antcall target="package"/>
+			<ant antfile="E:\ant-learning/build1.xml"/>
+		</target>
+		
+		<target name="compile">
+			<echo>hi sagar your project compiling</echo>
+			<mkdir dir="src"/>
+			<mkdir dir="build/classes"/>
+			<javac srcdir="src" destdir="build/classes"/>
+		</target>
+	
+
+		<target name="package" depends="compile"> 
+			<echo>sagar your package is running</echo>
+			<mkdir dir="build/jar"/>
+			<jar basedir="build/classes" destfile="build/jar/${ant.project.name}.jar"/>
+		</target>
+		
+		
+	</project>
