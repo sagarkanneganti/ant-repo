@@ -1,0 +1,16 @@
+<project name="sagar-java-project" default="compile">
+		
+		
+		<target name="compile">
+			<echo>hi sagar your project compiling</echo>
+			<echo>hi sagar your project compiling</echo>
+			<echo>hi sagar your project compiling</echo>
+			<echo>hi sagar your project compiling</echo>
+			<echo>hi sagar your project compiling</echo>
+			<echo>hi sagar your project compiling</echo>
+			<echo>hi sagar your project compiling</echo>
+			
+		</target>
+	
+		
+	</project>
